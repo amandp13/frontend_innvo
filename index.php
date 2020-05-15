@@ -56,7 +56,8 @@
                                                 <li><a href="#whatwedo">What we do ?</a></li>
                                                 <li><a href="#forbusiness">For business</a></li></li>
                                                 <li><a href="#contactus">Contact Us</a></li>
-                                                <li ><a style="color: skyblue;" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Sign Up</a></li>
+                                                <li ><a style="color: skyblue;" data-toggle="modal" href="javascript:void(0)" 
+                                                    onclick="openLoginModal();">Sign Up</a></li>
                                         </ul>
                                 </nav>
                             </div>
@@ -75,27 +76,27 @@
             </div>
         </div>
     </header>
+    
 
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-            <div class="container">
-                <div class="row align-items-center justify-content-start">
-                    <div class="col-lg-10 col-md-10">
-                        <div class="slider_text">
-                            <div id="header" class="align-items-center">
-                                <div class="container d-flex flex-column align-items-center">
-                                  <h2 >Innvocon is revolutionizing Business/Recruitment/Skill Development by developing an industry
-                                    based learning ecosystem
-                                  </h2>
-                                  <div class="subscribe">
-                                    <h4>Inquire to know how we are changing the hiring and learning scenario</h4>
-                                    <form role="form" >
-                                      <div class="subscribe-form">
-                                        <input type="email" name="email" placeholder="Enter Your Email Here"><input type="submit" value="Submit" >
-                                      </div>
-                                    </form>
+    <div class="slider">
+        <div class="load"></div>
+        <div class="container">
+            <div class="row align-items-center justify-content-start">
+                <div class="col-lg-10 col-md-10">
+                    <div class="slider_text">
+                        <div id="header" class="align-items-center">
+                            <div class="container d-flex flex-column align-items-center">
+                              <h2 >Innvocon is revolutionizing Business/Recruitment/Skill Development by developing an industry
+                                based learning ecosystem
+                              </h2>
+                              <div class="subscribe">
+                                <h4>Inquire to know how we are changing the hiring and learning scenario</h4>
+                                <form role="form" >
+                                  <div class="subscribe-form">
+                                    <input type="email" name="email" placeholder="Email "><input type="submit" value="Submit" >
                                   </div>
-                                </div>
+                                </form>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -103,6 +104,8 @@
             </div>
         </div>
     </div>
+    </div>
+   
 <hr>
           <!-- Full Page Intro -->
           <div id="whatwedo" class="view" style="background-image: url('img/whatwedo.png');" background-repeat: no-repeat; background-size: cover; background-position: center center;">
@@ -419,7 +422,7 @@
             <div class="modal-dialog login animated">
                 <div class="modal-content">
                    <div class="modal-header">
-                    <h4 class="modal-title">Register with</h4>
+                    <h3 class="modal-title">Register with</h3>
                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                   </div>
                   <div class="modal-body">
@@ -444,10 +447,12 @@
                               <div class="error"></div>
                               <div class="form loginBox">
                                   <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+                                  <input id="name" class="form-control" type="text" placeholder="Name" name="name">
                                   <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+
                                   <input id="password" class="form-control" type="password" placeholder="Password" name="password">
-                                  <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
-                                  <input class="btn btn-default btn-login" type="button" value="Create account" name="commit">
+
+                                  <input class="btn btn-default btn-login" type="button" value="Register" name="commit">
 
                                   </form>
                               </div>
