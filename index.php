@@ -108,10 +108,10 @@
    
 <hr>
           <!-- Full Page Intro -->
-          <div id="whatwedo" class="view" style="background-image: url('img/whatwedo.png');" background-repeat: no-repeat; background-size: cover; background-position: center center;">
+          <div id="whatwedo" class="view" style="background-image: url('img/whatwedo.png');"  background-size: cover; background-position: center;">
             <div class="mask rgba-gradient align-items-center">
               <!-- Content -->
-              <br> <br>
+              <br><br>
               <div  class="text-center">
                    <p class="h1" >
                      <b style="color: black;">What we do?</b>
@@ -135,7 +135,7 @@
                     
                   </div>
                   <!--Grid column-->
-                  <div  class="col-md-6 col-xl-6 mb-4 ">
+                  <div  class="col-md-6 col-xl-6 mb-4 mt-5 ">
                     <div class="wow fadeInRight white-text text-center"  data-wow-delay="0.3s">
                                 <!--<div class="col-md-6 mb-5 mt-md-0 mt-5 ">-->
                     <h6 class="wow fadeInRight para" data-wow-delay="0.3s"  style="color: whitesmoke; ">According to our research to understand the shape of future 
@@ -491,6 +491,7 @@
     <hr>
   </div>
   </footer>
+  <br>
     <!-- Grid row -->
     <footer>
     <div class="row d-flex align-items-center ">
@@ -514,7 +515,7 @@
 </div>
       <!-- Grid column -->
       <div class="col-sm-3">
-        <div class=" text-md-right">
+        <div class=" text-md-right text-center">
            <a href="index.html" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s"><img src="img/0_png-removebg-preview.png" width="150px" height="80px"></a>&emsp;
         </div>
       </div>
